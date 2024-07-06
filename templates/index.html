@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/styles.css">
+
+
+    <!-- Font1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap" rel="stylesheet">
+
+    <!-- Font2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <!-- Font3 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+
+    <title>Ansh Soni | Blogs</title>
+
+</head>
+
+<body>
+    <header>
+        <div id="heading">
+            <span>
+                <h1>Ansh Soni</h1>
+            </span>
+            
+            <img id="image" src="/static/img/ansh.jpg" alt="My Image">
+        </div>
+    </header>
+
+    <main>
+        <div class="my_blogs">
+            <p>
+                <img id="qm" src="/static/img/quantum.png" alt="Quantum Computing Logo"><br>
+                <h2>✨ Exploring the Foundations of Quantum Computing ✨</h2><br>
+                <h3>{ Beginner's Guide }</h3><br>
+                <a id="read_more" href="{{ url_for('get_blogs') }}">Read More</a>
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer">
+            <!-- LinkedIn Button -->
+            <a href="https://www.linkedin.com/in/anshmnsoni/" class="linkedin-button" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="linkedin-icon">
+                LinkedIn
+            </a>
+
+            <!-- LinkedIn Button -->
+            <a href="https://github.com/AnshMNSoni/" class="github-button" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="github-icon">
+                GitHub
+            </a>
+
+            <p id="copyright">©️ Copyright {{ yr }}. Website Owner <b id="copyright_name">Ansh Soni</b></p>
+        </div>
+    </footer>
+</body>
+</html>
