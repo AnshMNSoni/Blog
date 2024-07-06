@@ -9,7 +9,7 @@ def homepage():
     year = datetime.now().year
     return render_template('index.html', yr=year)
 
-@app.route('/Quantum Computing')
+@app.route('/QuantumComputing')
 def get_blogs():
     year = datetime.now().year
     return render_template('quantum_blog.html', yr=year)
