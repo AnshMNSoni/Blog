@@ -1,0 +1,153 @@
+body {
+    margin: 0px;
+    background-image: url('/static/img/white.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#heading {
+    background-color: #8576FF;
+    color: white;
+    margin: 0px;
+    height:200px;
+    
+}
+
+
+h1 {
+    margin: 0px;
+    margin-left: 55px;
+    padding-top: 30px;
+    width: 133px;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+h2 {
+    margin: 0px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: condensed;
+}
+
+
+h3 {
+    margin: 0px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    font-stretch: condensed;
+}
+
+
+#image {
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 100px;
+}
+
+#qm {
+    margin: 0px;
+    margin-top: -16px;
+    width: 600px;
+    height: 300px;
+}
+
+
+#read_more {
+    margin: 0px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.my_blogs {
+    background-color: white;
+    border: 1px solid black;
+    margin: 0px;
+    margin-left: 400px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+    height: 450px;
+    width: 600px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#footer {
+    margin: 0;
+    height: 125px;
+    background-color: #8576FF;
+    text-align: center;
+}
+
+/* Linkedin  */
+.linkedin-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.linkedin-button:hover {
+    background-color: rgb(255, 255, 140);
+}
+
+.linkedin-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+/* Github  */
+.github-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 25px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.github-button:hover {
+    background-color:rgb(255, 255, 140);
+}
+
+.github-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#copyright {
+    color: #FFF9D0;
+    font-size: 18px;
+}
+
+
+#copyright_name {
+    color: yellow;
+}
