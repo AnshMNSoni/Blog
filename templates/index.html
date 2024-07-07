@@ -40,12 +40,22 @@
     <main>
         <div class="my_blogs">
             <p>
-                <img id="qm" src="static/img/quantum.png" alt="Quantum Computing Logo"><br>
+                <img id="img_layout" src="static/img/quantum.png" alt="Quantum Computing Logo"><br>
                 <h2>✨ Exploring the Foundations of Quantum Computing ✨</h2><br>
                 <h3>{ Beginner's Guide }</h3><br>
-                <a id="read_more" href="{{ url_for('get_blogs') }}">Read More</a>
+                <a id="read_more" href="{{ url_for('quantum_computing') }}">Read More</a>
             </p>
         </div>
+
+        <div class="my_blogs">
+            <p>
+                <img id="img_layout" src="static/img/elections.jpg" alt="Election Logo"><br>
+                <h2>✨ Elections in the 21st Century: Just Name or In Action? ✨</h2><br>
+                <h3>{ A Critical Analysis of Democracy's Presence in Modern Elections }</h3><br>
+                <a id="read_more" href="{{ url_for('elections') }}">Read More</a>
+            </p>
+        </div>
+
     </main>
 
     <footer>
