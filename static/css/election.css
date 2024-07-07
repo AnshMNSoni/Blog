@@ -45,6 +45,43 @@ h3 {
 }
 
 
+#article {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.title {
+    margin: 0px;
+    margin-top: -35px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 20px;
+}
+
+
+.content {
+    margin: 0px;
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-left: 40px;
+    font-weight: 400;
+}
+
+
+.paragraph {
+    margin: 0px;
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
 #image {
     width: 200px;
     height: 200px;
@@ -61,7 +98,6 @@ h3 {
     height: 300px;
 }
 
-
 #read_more {
     margin: 0px;
     padding-left: 20px;
@@ -76,11 +112,19 @@ h3 {
     margin-left: 400px;
     margin-top: -50px;
     margin-bottom: 30px;
-    height: 450px;
+    height: 1750px;
     width: 600px;
     font-family: "Lilita One", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+
+.all_images {
+    margin: 0px;
+    height: 250px;
+    width: 500px;
+    padding-left: 50px;
 }
 
 
@@ -90,6 +134,7 @@ h3 {
     background-color: #8576FF;
     text-align: center;
 }
+
 
 /* Linkedin  */
 .linkedin-button {
