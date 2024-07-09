@@ -175,6 +175,7 @@ h3 {
     width: 20px;
     height: 20px;
     margin-right: 10px;
+
 }
 
 #copyright {
@@ -184,5 +185,10 @@ h3 {
 
 
 #copyright_name {
+    color: black;
+}
+
+
+#copyright_name:hover {
     color: yellow;
 }

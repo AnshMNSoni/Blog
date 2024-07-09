@@ -149,5 +149,9 @@ h3 {
 
 
 #copyright_name {
+    color: black;
+}
+
+#copyright_name:hover {
     color: yellow;
 }
