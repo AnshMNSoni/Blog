@@ -69,12 +69,33 @@ h3 {
     font-style: normal;
 }
 
-.my_blogs {
+
+#read_more:hover {
+    color: rgb(255, 34, 34);
+}
+
+
+.blog_quantum {
     background-color: white;
     border: 1px solid black;
     margin: 0px;
     margin-left: 400px;
     margin-top: -50px;
+    margin-bottom: 30px;
+    height: 450px;
+    width: 600px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.blog_election {
+    background-color: white;
+    border: 1px solid black;
+    margin: 0px;
+    margin-left: 400px;
+    margin-top: 10px;
     margin-bottom: 30px;
     height: 450px;
     width: 600px;
@@ -107,7 +128,7 @@ h3 {
 }
 
 .linkedin-button:hover {
-    background-color: rgb(255, 255, 140);
+    background-color: rgb(198, 198, 198);
 }
 
 .linkedin-icon {
@@ -133,7 +154,7 @@ h3 {
 }
 
 .github-button:hover {
-    background-color:rgb(255, 255, 140);
+    background-color: rgb(198, 198, 198);
 }
 
 .github-icon {
