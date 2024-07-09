@@ -1,15 +1,16 @@
-/* body {
+body {
     margin: 0px;
-    background-image: url('/static/img/white.jpg');
+    background: linear-gradient(to right, #850F8D, #C738BD, #E49BFF, #E49BFF, #C738BD, #850F8D);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-} */
+}
 
 
 #heading {
-    background-color: #8576FF;
+    background: linear-gradient(to bottom, #850F8D, #C738BD, #E49BFF, #F8F9D7);
     color: white;
+    border-bottom: 5px solid black;
     margin: 0px;
     height:200px;
     
@@ -24,6 +25,7 @@ h1 {
     font-family: "Ga Maamli", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-shadow: 2px 2px red;
 }
 
 
@@ -88,7 +90,8 @@ h3 {
     margin: 0px;
     margin-top: 20px;
     margin-left: 20px;
-    border-radius: 100px;
+    border-radius: 110px;
+    border: 4px solid #F8F9D7;
 }
 
 #img_layout {
@@ -131,7 +134,7 @@ h3 {
 #footer {
     margin: 0;
     height: 125px;
-    background-color: #8576FF;
+    background: linear-gradient(to right, #850F8D, #C738BD, #E49BFF, #E49BFF, #C738BD, #850F8D);
     text-align: center;
 }
 
@@ -152,7 +155,7 @@ h3 {
 }
 
 .linkedin-button:hover {
-    background-color: rgb(255, 255, 140);
+    background-color: rgb(198, 198, 198);
 }
 
 .linkedin-icon {
@@ -178,7 +181,7 @@ h3 {
 }
 
 .github-button:hover {
-    background-color:rgb(255, 255, 140);
+    background-color:rgb(198, 198, 198);
 }
 
 .github-icon {
