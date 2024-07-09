@@ -36,7 +36,16 @@
     </header>
 
     <main>
-        <div class="blog_quantum">
+
+        <div class="dropdown">
+            <button class="dropbtn">Here my Blogs</button>
+            <div class="dropdown-content">
+                <a href="#blog1">Quantum Computing</a>
+                <a href="#blog2">Election</a>
+            </div>
+        </div>
+
+        <div id="blog1" class="blog_quantum">
             <p>
                 <img id="img_layout" src="static/img/quantum.png" alt="Quantum Computing Logo"><br>
                 <h2>✨ Exploring the Foundations of Quantum Computing ✨</h2><br>
@@ -45,7 +54,7 @@
             </p>
         </div>
 
-        <div class="blog_election">
+        <div id="blog2" class="blog_election">
             <p>
                 <img id="img_layout" src="static/img/elections.jpg" alt="Election Logo"><br>
                 <h2>✨ Elections in the 21st Century: Just Name or In Action? ✨</h2><br>
@@ -73,5 +82,7 @@
             <p id="copyright">©️ Copyright {{ yr }}. Website Owner <b id="copyright_name">Ansh Soni</b></p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
